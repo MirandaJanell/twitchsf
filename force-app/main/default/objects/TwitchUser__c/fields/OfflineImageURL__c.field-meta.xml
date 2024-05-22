@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OfflineImageURL__c</fullName>
+    <description>A URL to the user’s offline image.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A URL to the user’s offline image.</inlineHelpText>
+    <label>Offline Image URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

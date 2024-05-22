@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>The type of user. Possible values are:
+
+- admin — Twitch administrator
+- global_mod
+- staff — Twitch staff
+- &quot;&quot; — Normal use</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of user.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>admin</fullName>
+                <default>false</default>
+                <label>admin</label>
+            </value>
+            <value>
+                <fullName>global_mod</fullName>
+                <default>false</default>
+                <label>global_mod</label>
+            </value>
+            <value>
+                <fullName>staff</fullName>
+                <default>false</default>
+                <label>staff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
